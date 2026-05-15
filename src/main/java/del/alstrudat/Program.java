@@ -120,11 +120,3 @@ public class Program {
       return null;
     }
 
-    long[] result = new long[n + 2];
-    result[0] = dist[end];
-    for (int i = 1; i <= n; i++) {
-      result[i + 1] = prev[i];
-    }
-    return result;
-  }
-}
